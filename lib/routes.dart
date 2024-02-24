@@ -11,11 +11,11 @@ class GetRoutes {
   static List<GetPage> routes = [
     GetPage(
       name: GetRoutes.login,
-      page: () => const LoginScreen(),
+      page: () => LoginScreen(),
     ),
     GetPage(
       name: GetRoutes.signup,
-      page: () => const SignupScreen(),
+      page: () => SignupScreen(),
     ),
     GetPage(
       name: GetRoutes.home,
