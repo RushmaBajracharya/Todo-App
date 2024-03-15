@@ -19,7 +19,7 @@ class SignupScreen extends StatelessWidget {
         padding: const EdgeInsets.all(15.0),
         child: GetBuilder<SignupController>(builder: (controller) {
           return Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
+              crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 const SizedBox(
                   height: 100,

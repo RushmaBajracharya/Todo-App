@@ -19,7 +19,7 @@ class LoginScreen extends StatelessWidget {
         padding: const EdgeInsets.all(15.0),
         child: GetBuilder<LoginController>(builder: (controller) {
           return Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
+              crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 const SizedBox(
                   height: 120,
