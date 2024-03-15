@@ -23,7 +23,7 @@ class LoginController extends GetxController {
   }
 
   checkUser() async {
-    var user = SharedPrefs().getUser();
+    var user = await SharedPrefs().getUser();
     if (user != null) {
       Get.offAllNamed(GetRoutes.home);
     }
